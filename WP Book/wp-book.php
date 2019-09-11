@@ -31,4 +31,5 @@ if ( ! defined ('ABSPATH') ) {
 }
 
 require 'includes/wp-book-custom-post.php';
+require 'includes/wp-book-category-taxonomy.php';
 
