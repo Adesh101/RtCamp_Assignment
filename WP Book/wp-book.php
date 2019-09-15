@@ -34,6 +34,10 @@ require 'includes/wp-book-custom-post.php';
 require 'includes/wp-book-category-taxonomy.php';
 require 'includes/wp-book-tag-taxonomy.php';
 require 'includes/wp-book-meta-box.php';
+require 'includes/wp-book-meta-table.php';
 
+
+register_activation_hook( __FILE__, 'wp_book_create_table' );
+register_activation_hook( __FILE__, 'wp_book_insert_data_in_table' );
 
 
