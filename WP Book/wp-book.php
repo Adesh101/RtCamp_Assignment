@@ -33,5 +33,7 @@ if ( ! defined ('ABSPATH') ) {
 require 'includes/wp-book-custom-post.php';
 require 'includes/wp-book-category-taxonomy.php';
 require 'includes/wp-book-tag-taxonomy.php';
+require 'includes/wp-book-meta-box.php';
+
 
 
