@@ -25,7 +25,7 @@ function wp_book_meta_callback( $post ) {
             <label for="book_id">Book ID</label>
         </div>
         <div>
-            <input type="text" name="book_id" id="book_id" value="" />
+            <input type="text" name="book_id" id="book_id" />
         </div>        
     </div>
     
@@ -34,7 +34,7 @@ function wp_book_meta_callback( $post ) {
             <label for="author_name">Author Name</label>
         </div>
         <div>
-            <input type="text" name="author_name" id="author_name" value="<?php get_post_meta( $post->ID, 'author_name', true) ?>" />
+            <input type="text" name="author_name" id="author_name" />
         </div>        
     </div>
     
@@ -43,7 +43,7 @@ function wp_book_meta_callback( $post ) {
             <label for="price">Price</label>
         </div>
         <div>
-            <input type="text" name="price" id="price" value="" />
+            <input type="text" name="price" id="price" />
         </div>        
     </div>
 
@@ -52,7 +52,7 @@ function wp_book_meta_callback( $post ) {
             <label for="publisher">Publisher</label>
         </div>
         <div>
-            <input type="text" name="publisher" id="publisher" value="" />
+            <input type="text" name="publisher" id="publisher" />
         </div>        
     </div>
 
@@ -61,7 +61,7 @@ function wp_book_meta_callback( $post ) {
             <label for="year">Year</label>
         </div>
         <div>
-            <input type="text" name="year" id="year" value="" />
+            <input type="text" name="year" id="year" />
         </div>        
     </div>
 
@@ -70,7 +70,7 @@ function wp_book_meta_callback( $post ) {
             <label for="edition">Edition</label>
         </div>
         <div>
-            <input type="text" name="edition" id="edition" value="" />
+            <input type="text" name="edition" id="edition" />
         </div>        
     </div>
 
@@ -79,9 +79,10 @@ function wp_book_meta_callback( $post ) {
             <label for="url">URL</label>
         </div>
         <div>
-            <input type="text" name="url" id="url" value="" />
+            <input type="text" name="url" id="url" />
         </div>        
     </div>
  
     <?php
 }
+
